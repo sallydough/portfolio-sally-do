@@ -1,0 +1,9 @@
+/* WHEN SCREEN SIZE IS LESS THAN OR EQUAL TO 1200PX, MENU WILL CHANGE INTO HAMBURGER MENU */
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
